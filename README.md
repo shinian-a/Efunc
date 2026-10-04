@@ -39,6 +39,7 @@
 
 ```bash
 go get github.com/shinian-a/Efunc@v2.5.2
+go mod tidy
 ```
 
 ## 🚀 快速开始
