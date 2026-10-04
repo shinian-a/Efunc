@@ -6,11 +6,11 @@
 
 中文命名的工具函数库，涵盖编码转换、加密校验、文本处理、文件操作、网络请求、并发安全数据结构、数据库操作、权限管理等常用功能
 
-[![Version](https://img.shields.io/badge/Version-v2.5.2-blue?style=flat-square)](https://github.com/yuan71058/Efunc/releases)
+[![Version](https://img.shields.io/badge/Version-v2.5.2-blue?style=flat-square)](https://github.com/shinian-a/Efunc/releases)
 [![Go Version](https://img.shields.io/badge/Go-%3E%3D1.18-00ADD8?style=flat-square&logo=go)](https://go.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 [![Functions](https://img.shields.io/badge/Functions-935%2B-orange?style=flat-square)](API_Reference.md)
-[![Go Reference](https://pkg.go.dev/badge/github.com/yuan71058/Efunc.svg)](https://pkg.go.dev/github.com/yuan71058/Efunc)
+[![Go Reference](https://pkg.go.dev/badge/github.com/shinian-a/Efunc.svg)](https://pkg.go.dev/github.com/shinian-a/Efunc)
 
 [快速开始](#-快速开始) · [模块一览](#-模块一览) · [命名规则](#-命名规则) · [更新日志](#-更新日志)
 
@@ -38,7 +38,7 @@
 ## 📥 安装
 
 ```bash
-go get -u github.com/yuan71058/Efunc@v2.5.0
+go get github.com/shinian-a/Efunc@v2.5.2
 ```
 
 ## 🚀 快速开始
@@ -49,7 +49,7 @@ package main
 import (
 	"fmt"
 
-	. "github.com/yuan71058/Efunc/utils"
+	. "github.com/shinian-a/Efunc/utils"
 )
 
 func main() {
@@ -79,8 +79,8 @@ func main() {
 
 ```go
 import (
-	"github.com/yuan71058/Efunc/class"       // 类模块（并发安全数据结构）
-	. "github.com/yuan71058/Efunc/utils"      // 工具函数（点导入可直接调用）
+	"github.com/shinian-a/Efunc/class"       // 类模块（并发安全数据结构）
+	. "github.com/shinian-a/Efunc/utils"      // 工具函数（点导入可直接调用）
 )
 ```
 
@@ -89,11 +89,11 @@ import (
 项目提供英文命名版本，位于 `en/` 目录，函数名采用 `Category_Function` 风格（如 `Text_Between`、`Crypto_AESEncrypt`），功能与中文版完全对等，适合英文环境或国际化项目使用。
 
 ```bash
-go get github.com/yuan71058/Efunc/en
+go get github.com/shinian-a/Efunc/en
 ```
 
 ```go
-import "github.com/yuan71058/Efunc/en/utils"
+import "github.com/shinian-a/Efunc/en/utils"
 
 func main() {
 	utils.Text_Between("<div>Hello</div>", "<div>", "</div>") // "Hello"
