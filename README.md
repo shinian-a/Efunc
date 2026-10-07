@@ -38,7 +38,7 @@
 ## 📥 安装
 
 ```bash
-go get github.com/shinian-a/Efunc@v2.5.2
+go get github.com/shinian-a/Efunc@v1.0.0
 go mod tidy
 ```
 
